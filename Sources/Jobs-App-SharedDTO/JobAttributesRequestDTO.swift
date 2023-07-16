@@ -15,7 +15,7 @@ public struct JobAttributesRequestDTO: Codable {
     public let address: String
     public let city: String
     public let state: String
-    public let zipcode: String
+    public let zipcode: Int
     public let phoneNumberOne: String
     public let phoneNumberTwo: String
     public let email: String
