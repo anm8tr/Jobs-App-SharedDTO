@@ -12,7 +12,7 @@ public struct JobAttributesResponseDTO: Codable {
     public let id: UUID
     public let status: String
     public let name: String
-    public let address: String
+    public let address: String,
     // public let city: String
     // public let state: String
     // public let zipcode: String
@@ -32,7 +32,7 @@ public struct JobAttributesResponseDTO: Codable {
         self.id = id
         self.status = status
         self.name = name
-        self.address = address
+        self.address = address,
         // self.city = city
         // self.state = state
         // self.zipcode = zipcode
