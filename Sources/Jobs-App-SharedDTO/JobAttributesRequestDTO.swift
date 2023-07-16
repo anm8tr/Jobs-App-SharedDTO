@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct CreateJobAttributesRequestDTO: Codable {
+public struct JobAttributesRequestDTO: Codable {
     
     
     public let status: String
