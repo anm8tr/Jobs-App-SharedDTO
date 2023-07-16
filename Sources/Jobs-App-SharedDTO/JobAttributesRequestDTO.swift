@@ -35,7 +35,7 @@ public struct JobAttributesRequestDTO: Codable {
         self.city = city
         self.state = state
         self.zipcode = zipcode
-        self.phoneNumber = phone1
+        self.phoneNumber = phoneNumber
         //self.phone2 = phone2
         self.email = email
         self.contacted = contacted
