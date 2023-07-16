@@ -21,7 +21,7 @@ public struct JobAttributesRequestDTO: Codable {
     // public let email: String
     // public let contacted: String
     // public let appointmentSet: String
-    // public let appointmentDate: Date
+       public let appointmentDate: Date
     // public let jobStatus: String
     // public let invoiced: String
     // public let invoiceAmount: Double
@@ -40,7 +40,7 @@ public struct JobAttributesRequestDTO: Codable {
         // self.email = email
         // self.contacted = contacted
         // self.appointmentSet = appointmentSet
-        // self.appointmentDate = appointmentDate
+           self.appointmentDate = appointmentDate
         // self.jobStatus = jobStatus
         // self.invoiced = invoiced
         // self.invoiceAmount = invoiceAmount
