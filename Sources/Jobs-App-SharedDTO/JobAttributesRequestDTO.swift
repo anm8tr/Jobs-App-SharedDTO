@@ -43,7 +43,7 @@ public struct JobAttributesRequestDTO: Codable {
         self.appointmentDate = appointmentDate
         self.jobStatus = jobStatus
         self.invoiced = invoiced
-        self.invoiceAmount = invoiceAmount
+        //self.invoiceAmount = invoiceAmount
         self.notes = notes
     }
     
