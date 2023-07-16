@@ -15,7 +15,7 @@ public struct JobAttributesRequestDTO: Codable {
     public let address: String
     public let city: String
     public let state: String
-    //public let zipcode: Int
+    public let zipcode: String
     public let phoneNumberOne: String
     public let phoneNumberTwo: String
     public let email: String
@@ -28,13 +28,13 @@ public struct JobAttributesRequestDTO: Codable {
     public let notes: String
     
     
-    public init(status: String, name: String, address: String, city: String, state: String, /*zipcode: Int,*/ phoneNumberOne: String, phoneNumberTwo: String, email: String, contacted: String, appointmentSet: String, appointmentDate: Date, jobStatus: String, invoiced: String, invoiceAmount: Double, notes: String) {
+    public init(status: String, name: String, address: String, city: String, state: String, zipcode: String, phoneNumberOne: String, phoneNumberTwo: String, email: String, contacted: String, appointmentSet: String, appointmentDate: Date, jobStatus: String, invoiced: String, invoiceAmount: Double, notes: String) {
         self.status = status
         self.name = name
         self.address = address
         self.city = city
         self.state = state
-        //self.zipcode = zipcode
+        self.zipcode = zipcode
         self.phoneNumberOne = phoneNumberOne
         self.phoneNumberTwo = phoneNumberTwo
         self.email = email
