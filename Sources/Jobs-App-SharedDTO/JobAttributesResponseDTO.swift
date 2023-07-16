@@ -35,9 +35,9 @@ public struct JobAttributesResponseDTO: Codable {
         self.address = address
         self.city = city
         self.state = state
-        self.zipcode = zipcode
-        self.phone1 = phone1
-        self.phone2 = phone2
+        //self.zipcode = zipcode
+        //self.phone1 = phone1
+        //self.phone2 = phone2
         self.email = email
         self.contacted = contacted
         self.appointmentSet = appointmentSet
