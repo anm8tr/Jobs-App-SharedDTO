@@ -28,7 +28,7 @@ public struct JobAttributesRequestDTO: Codable {
     // public let notes: String
     
     
-    public init(status: String, name: String, address: String /*city: String, state: String, zipcode: String, phone1: String, phone2: String, email: String, contacted: String, appointmentSet: String, appointmentDate: Date, jobStatus: String, invoiced: String, invoiceAmount: Double, notes: String*/) {
+    public init(status: String, name: String, address: String /*city: String, state: String, zipcode: String, phone1: String, phone2: String, email: String, contacted: String, appointmentSet: String,*/ appointmentDate: Date /*, jobStatus: String, invoiced: String, invoiceAmount: Double, notes: String*/) {
         self.status = status
         self.name = name
         self.address = address
