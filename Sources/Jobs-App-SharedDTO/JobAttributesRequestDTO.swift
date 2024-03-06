@@ -9,8 +9,6 @@ import Foundation
 
 public struct JobAttributesRequestDTO: Codable {
     
-    
-    public let status: String
     public let name: String
     public let address: String
     public let city: String
@@ -22,8 +20,8 @@ public struct JobAttributesRequestDTO: Codable {
     public let notes: String
     
     
-    public init(status: String, name: String, address: String, city: String, state: String, zipcode: String, phoneNumberOne: String, phoneNumberTwo: String, email: String, notes: String) {
-        self.status = status
+    public init(name: String, address: String, city: String, state: String, zipcode: String, phoneNumberOne: String, phoneNumberTwo: String, email: String, notes: String) {
+        
         self.name = name
         self.address = address
         self.city = city
