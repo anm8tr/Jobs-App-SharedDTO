@@ -10,15 +10,15 @@ import Foundation
 public struct JobAttributesResponseDTO: Codable {
     
     public let id: UUID
-    public let name: String
-    public let address: String
-    public let city: String
-    public let state: String
-    public let zipcode: String
-    public let phoneNumberOne: String
-    public let phoneNumberTwo: String
-    public let email: String
-    public let notes: String
+    public var name: String
+    public var address: String
+    public var city: String
+    public var state: String
+    public var zipcode: String
+    public var phoneNumberOne: String
+    public var phoneNumberTwo: String
+    public var email: String
+    public var notes: String
     
     
     public init(id: UUID, name: String, address: String, city: String, state: String, zipcode: String, phoneNumberOne: String, phoneNumberTwo: String, email: String, notes: String) {
