@@ -15,14 +15,15 @@ public struct CreateNewJobResponseDTO: Codable  {
     public let companyName: String
     public let jobId: String
     public let date: Date
-    public let items: [JobAttributesResponseDTO]
     
-    public init(id: UUID, companyName: String, jobId: String, date: Date, items: [JobAttributesResponseDTO] = []) {
+    
+    
+    public init(id: UUID, companyName: String, jobId: String, date: Date) {
         self.id = id
         self.companyName = companyName
         self.jobId = jobId
         self.date = date
-        self.items = items
+        
     }
     
 }
