@@ -12,8 +12,8 @@ import Foundation
 public struct CreateNewJobResponseDTO: Codable  {
     
     public let id: UUID
-    public let companyName: String
-    public let jobId: String
+    public var companyName: String
+    public var jobId: String
     public let date: Date
     
     
