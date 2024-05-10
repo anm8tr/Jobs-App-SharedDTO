@@ -14,7 +14,7 @@ public struct CreateNewJobResponseDTO: Codable  {
     public let id: UUID
     public var companyName: String
     public var jobId: String
-    public let date: Date
+    public var date: Date
     
     
     public init(id: UUID, companyName: String, jobId: String, date: Date) {
