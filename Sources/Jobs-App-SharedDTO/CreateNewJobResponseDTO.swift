@@ -9,7 +9,7 @@ import Foundation
 
 @available(iOS 15.0, *)
 @available(macOS 12.0, *)
-public struct CreateNewJobResponseDTO: Codable, Equatable, Hashable  {
+public struct CreateNewJobResponseDTO: Codable, Equatable, Hashable, Identifiable  {
     
     public let id: UUID
     public var companyName: String
