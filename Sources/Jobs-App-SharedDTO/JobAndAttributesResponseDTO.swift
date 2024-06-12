@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct JobAndAttributesResponseDTO: Codable {
+public struct JobAndAttributesResponseDTO: Content, Codable {
     
     public let id: UUID
     public let companyName: String
