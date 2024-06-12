@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct JobAttributesResponseDTO: Content, Codable, Equatable, Hashable, Identifiable {
+public struct JobAttributesResponseDTO: Codable, Equatable, Hashable, Identifiable {
     
     public let id: UUID
     public var name: String
